@@ -1,0 +1,18 @@
+# Streamlit Configuration for Weather App
+# Note: OPENWEATHERMAP_API_KEY is managed via Replit Secrets
+
+[server]
+headless = true
+address = "0.0.0.0"
+port = 5000
+
+[theme]
+# Beautiful purple gradient theme to match the app design
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f3f6"
+textColor = "#2c3e50"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
